@@ -41,5 +41,5 @@ function loop() {
 loop();
 
 setInterval(() => {
-  makeDrop(Math.floor(Math.random() * 600), Math.floor(Math.random() * 400));
+  // makeDrop(Math.floor(Math.random() * 600), Math.floor(Math.random() * 400));
 }, 1);
