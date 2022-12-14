@@ -1,0 +1,25 @@
+.zone {
+  position: relative;
+  border: solid black 3px;
+  width: 600px;
+  height: 400px;
+  background-color: lightblue;
+  overflow: hidden;
+}
+
+.drop {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  top: 0;
+  width: 30px;
+  height: 30px;
+  background-color: darkblue;
+  transform: translateX(-50%) translateY(-50%);
+  border-radius: 50%;
+  will-change: "width, height";
+  color: white;
+  font-size: 50px;
+}
